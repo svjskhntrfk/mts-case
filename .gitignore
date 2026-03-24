@@ -1,0 +1,138 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / coverage / lint
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.out
+*.err
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.env
+secrets/
+credentials/
+*.key
+*.pem
+
+# =========================
+# Data
+# =========================
+data/raw/
+data/interim/
+data/external/
+data/tmp/
+tmp/
+
+# Keep folder structure if needed
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/external/.gitkeep
+!data/tmp/.gitkeep
+
+# =========================
+# Geospatial files
+# =========================
+*.gpkg
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qmd
+*.osm
+*.pbf
+*.tif
+*.tiff
+*.parquet
+*.feather
+
+# If you want to keep small demo samples, place them in examples/ or data/sample/
+
+# =========================
+# Generated artifacts
+# =========================
+outputs/
+artifacts/
+reports/
+figures/
+maps/
+exports/
+
+!reports/.gitkeep
+!figures/.gitkeep
+!maps/.gitkeep
+
+# =========================
+# ML artifacts
+# =========================
+models/
+checkpoints/
+mlruns/
+wandb/
+
+# =========================
+# Local databases
+# =========================
+*.sqlite
+*.sqlite3
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.7z
+*.rar
